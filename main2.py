@@ -22,4 +22,4 @@ for filename in os.listdir(input_folder):
         img.save(output_path, "webp", quality=85)
         print(f"Converted: {filename} → {file_name}.webp")
 
-print("\nتمام شد! همه‌ی عکس‌ها به WebP تبدیل شدند :)")
+print("\n all of your images converted to webp :)")
